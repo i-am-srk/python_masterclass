@@ -3,6 +3,9 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
+
+        T - O(n) with 2 linear passes
+        S - O(1)
         """
 
         candidate, count = None, 0
